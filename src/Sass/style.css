@@ -1,0 +1,81 @@
+
+.rectangulo {
+  width: 400px; 
+  height: 200px; 
+  background-color: #ffffff; 
+  box-shadow: 20px 0 40px rgba(0, 0, 0, 0.3); 
+  margin: 50px; 
+}
+
+@font-face {
+  font-family: 'NiseSegaSonic';
+  src: url("Fonts/NiseSegaSonic.TTF");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'NiseSegaSonic', sans-serif;
+  background: linear-gradient(to bottom, #f4f4f4, #ffffff);
+}
+
+.content {
+  padding: 20px;
+  text-align: left;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-container {
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.menu-item {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #ffd700;
+}
+
+.green-box {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.bottom-box {
+  background-color: #555; /* Color gris para el cuadro inferior */
+  width: 100%;
+}
+
+.bottom-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.bottom-menu .menu-item {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
